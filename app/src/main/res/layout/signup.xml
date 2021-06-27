@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/t1"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Name"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/name"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="First Name    LastName"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/t2"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Email"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/email"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Email Address"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/t3"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Password"
+                android:textSize="20dp"
+                />
+            <EditText
+                android:id="@+id/password"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <TextView
+                android:id="@+id/t4"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Confirm Password"
+                android:textSize="20dp"
+                />
+
+            <EditText
+                android:id="@+id/confirmpassword"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Password"
+                android:inputType="textPassword"
+                />
+        </TableRow>
+    </TableLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:id="@+id/signup"
+        android:background="@android:color/black"
+        android:textColor="@android:color/white"
+        android:text="SignUp"
+
+        />
+
+
+</LinearLayout>

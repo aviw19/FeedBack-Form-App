@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FormImplementation</string>
+    <string name="facebook_app_id">2300549176669853</string>
+    <string name="fb_login_protocol_scheme">fb2300549176669853</string>
+    <string name="error_weak_password">Weak Password</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string name="error_user_exists">User Already Exists</string>
+</resources>

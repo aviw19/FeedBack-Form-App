@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/cform"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Untitiled Form" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Form Description" />
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+        <EditText
+            android:id="@+id/question"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:hint="Type Question Here"
+            />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:spinnerMode="dropdown" />
+
+        </TableRow>
+        <TableRow
+            >
+            <EditText
+                android:id="@+id/answer"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="Answer"
+                android:visibility="invisible"
+                />
+            <EditText
+                android:id="@+id/count"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="How many choices?"
+                android:visibility="invisible"
+                android:inputType="number"
+                />
+
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/addqb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add this Question" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Here" />
+
+
+</LinearLayout>
